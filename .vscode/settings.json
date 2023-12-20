@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.fontFamily": "cascadia code",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.mouseWheelZoom": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "'cascadia code','Droid Sans Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 1,
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
