@@ -1,0 +1,16 @@
+console.log("Welcome to tut11.js ----- In this toutrail we are learning DOM ----(Document Object Model)");
+
+// let a = window.alert("hello Amit");
+// let a = alert("Hey i am alert");
+// a = document;
+// a = innerWidth;
+// a = innerHeight;
+// a = outerHeight;
+// a = outerWidth;
+// a = scrollX
+a = location.toString();
+a = history;
+
+
+console.log(a);
+
