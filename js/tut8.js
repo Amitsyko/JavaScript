@@ -24,6 +24,12 @@ const age = 65;
 if (age != 19){
     console.log("Age is not 19")
 }
+
+/*
+=== check value and type :-
+!== not check value and type :-
+*/
+
 else if(age !== 65){
     console.log("Age is not 65")
 }
