@@ -27,7 +27,7 @@ let arrelement = arr[4];
 
 // num.pop(); //--pop krne se last ki value hat jati he
 
-// num.shift(); //--shift krne se last ki value hat jati he
+// num.shift(); //--shift krne se starting ki value hat jati he
 
 // num.splice(0,2); //--splice krne se hum value ko kahi se bhi hata skte he parameters ke sath
 

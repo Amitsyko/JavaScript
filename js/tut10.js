@@ -5,12 +5,18 @@ console.log("Welcome to tut10.js ---- We are Learning the fucntions in JavaScrip
 //     return msg;
 // }
 
+
+
 // let name ="Amit";
 // let mood = "Good";
+
+
 
 // let val = mygreet(name, "I am very Happy");
 // console.log(val);
 // // greet(mood);
+
+
 
 // const myObj = {
 //     Vname : "Anuj",
@@ -21,7 +27,11 @@ console.log("Welcome to tut10.js ---- We are Learning the fucntions in JavaScrip
 // console.log(myObj.game());
 
 
+
+
 // arr=["fruit","vegitables","furniture"];
+
+
 
 // arr.forEach(function(element,index,array) {
 //     console.log(element,index,array);

@@ -8,7 +8,7 @@
     # Reference DataTypes :-
 
     ------Primitive DataTypes-------
-
+  
     * string
     * numbers
     * Boolean

@@ -10,6 +10,7 @@ name = "Vishwakarma";
 var subject = "Information and Techonology";
 var Profession;
 var city = "Indore";
+    
 console.log(name, subject,Profession,city);
 
 var num= 34;
@@ -36,3 +37,6 @@ console.log(ownerName);
 }
 
     // console.log(city);
+
+
+   
