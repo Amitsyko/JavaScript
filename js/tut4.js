@@ -58,7 +58,7 @@ console.log('Data type is ' + (typeof nullVar));
 
 const Undefi = undefined;
 
-console.log('Data type is ' + (typeof Undefi)); 
+console.log('Data type is ' + (typeof Undefi));
 
 
 //Reference DataTypes :-
