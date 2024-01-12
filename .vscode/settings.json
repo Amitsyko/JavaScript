@@ -6,7 +6,7 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-    "workbench.colorTheme": "Cobalt2",
+    "workbench.colorTheme": "JellyFish",
     "editor.fontFamily": "'cascadia code','Droid Sans Mono', 'monospace', monospace",
     "editor.fontLigatures": true,
     "window.zoomLevel": 1,
