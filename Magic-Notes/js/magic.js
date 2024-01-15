@@ -1,0 +1,1 @@
+console.log("Hey i am the console of the Magic Notes");
