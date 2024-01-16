@@ -99,3 +99,4 @@ Further Features :-
 2- Mark a note as important
 3- Seprate note by user
 4- Sync and host with web server
+*/
