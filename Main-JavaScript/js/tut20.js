@@ -24,6 +24,7 @@ console.log(name);
 
 
 /*----------Session---------*/
-
+/*
 sessionStorage.setItem("Name","sAmit");
 sessionStorage.setItem("Profession","Information & Technology");
+*/

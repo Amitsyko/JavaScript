@@ -1,0 +1,1 @@
+console.log('Hey in this tut we can create --Magic-Notes--');
