@@ -1,0 +1,1 @@
+console.log('Hey Welcome to tut26.js in this tut we are --Improving Magic Notes website--');
