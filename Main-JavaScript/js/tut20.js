@@ -6,7 +6,7 @@ console.log("Hey Welcome to tut20.js----In this tut we can learn -- Local and Se
 let impArray = ["Ginger","Oninon","LadyFinger"];
 
 //Add a key-value pair inside localStorage :-
-localStorage.setItem("Name","Amit");
+localStorage.setItem("Name","Amit");	
 localStorage.setItem("Name1","Amisha");
 localStorage.setItem("Vegitables",JSON.stringify(impArray));
 

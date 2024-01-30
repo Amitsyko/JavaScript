@@ -20,12 +20,15 @@ z = Math.pow(2, 3);
 z = Math.min(2, 3, 10, 150, 200, -2);
 z = Math.max(2, 3, 10, 150, 200, 205, -2);
 
+console.log(z)
+
+
 
 //Random Number
-z = Math.random();
+// z = Math.random();
 
 
-/*
+
 //let 0 to value 1
 a = (0,1)
 
@@ -34,7 +37,6 @@ a100 = a*100 = (0,100);
 
 //let 0 to value 100
 a10_100 = 10+a*(100-10);
-*/
 
 z = 100 * Math.random();
 z = 50 + (100 - 50) * Math.random();

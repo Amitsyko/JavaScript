@@ -8,13 +8,13 @@ console.log("Hey Welcome to tut18.js----In this tut18.js we can learn in this tu
 // function fun1(e) {
 //     console.log("Thanks to Click", e);
 //     e.preventDefault();
-// }
+// }    
 
-// function fun2(e) {
+// function fun2(e) {   
 //     console.log("Thanks to Click Second Time", e);
 //     e.preventDefault();
 // }
-
+    
 // function fun3(e) {
 //     console.log("Thanks its a Mouse Down", e);
 //     e.preventDefault();
