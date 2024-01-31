@@ -12,8 +12,14 @@ let car = {
     }
 // console.log(car);
 
+
+
+
 //----We are already seen the constructors----
 //----     new Date();
+
+
+
 
 //----Creating a Constructors for car-----
 
