@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <div id="main">
+            <div class="first">
+                <div class="input">
+                    <input type="text" name="text" id="text" placeholder="Enter your city name">
+                </div>
+                <div class="input">
+                    <img src="images/search.png">
+                </div>
+            </div>
+
+            <div class="detail">
+
+                <div class="dp-season">
+                    <img src="images/clear.png">
+                    <h1 class="temp">22°c</h1>
+                    <h2 class="font city">India</h2>
+                </div>
+
+                <div class="info">
+                    <div class="humi">
+                        <img src="images/humidity.png">
+                        <p class="font humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="wind">
+                        <img src="images/wind.png" alt="">
+                        <p class="font speed">15 Km/Hrs</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </center>
+
+
+    <!----------------------JavaScript------------------->
+
+    <script>
+        const apiKey = "b75f96937bcbe4370ae5d8e03b4b49a1";
+        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=Bangalore";
+
+        async function checkWeather() {
+            const response = await fetch(apiUrl + `&appid=${apiKey}`);
+            var data = await response.json();
+            console.log(data);
+
+            document.querySelector(".city").innerHTML = data.name;
+            document.querySelector(".temp").innerHTML = data.main.temp + "°c";
+            document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
+            document.querySelector(".speed").innerHTML = data.wind.speed + "Km/Hrs";
+        }
+
+        checkWeather();
+
+
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- https://api.openweathermap.org/data/2.5/weather?q=Bangalore&appid=b75f96937bcbe4370ae5d8e03b4b49a1&units=metric -->

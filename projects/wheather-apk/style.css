@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}   
+
+#main{
+    /* margin: 10rem 30rem; */
+    padding: 3rem;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    border-radius: 50px;
+    width: 100%;
+    max-width: 350px;
+    justify-content: center;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between  ;
+}
+.first img{
+    /* width: 100%; */
+    max-width: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 2rem;
+}
+.first input{
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+
+.dp-season{
+    text-align: center;
+}
+.dp-season img{
+    -webkit-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+} 
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.dp-season h1{ 
+    font-size: 50px;
+    color:white;
+    font-family: 'Black Ops One', system-ui;
+
+}
+
+.dp-season h2{ 
+    font-size: 35px;
+    color:white;
+    font-family: 'Black Ops One', system-ui;
+    line-height: 0px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    color: white;
+}
+.info img{
+    width: 50%;
+}
+
+.info .font{
+    font-family: 'Black Ops One', system-ui;
+    line-height: 10px;
+    font-weight: 800;
+}
