@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut32.js in this tut we can create --Implement a library Class in JavaScript");
+console.log("Hey Welcome to tut32.js in this tut we can create --Implement a library Class in JavaScript--");
 
 /*
 

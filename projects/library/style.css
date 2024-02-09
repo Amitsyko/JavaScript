@@ -1,0 +1,7 @@
+body{
+    background-color:grey !important;
+}
+::placeholder{
+    opacity: 1 !important;
+    color: rgb(214, 214, 214) !important;
+}

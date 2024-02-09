@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut31.js in this tut we can learn ES6 Classes and Inheritance in JavaScript");
+console.log("Hey Welcome to tut31.js in this tut we can learn --ES6 Classes and Inheritance in JavaScript--");
 
 class employee {
 
