@@ -18,8 +18,8 @@ xhr.onload = function () {
         let json = JSON.parse(this.responseText);
         let articles = json.articles;
         // console.log(articles)
-        let  newsHtml = "";
-        articles.forEach(function(element,index) {
+        let newsHtml = "";
+        articles.forEach(function (element, index) {
             // console.log(articles[news]);
 
             let news = `<div class="accordion-item">
@@ -29,10 +29,10 @@ xhr.onload = function () {
                             </button>
                             </h2>
                             <div id="collapse${index}" class="accordion-collapse collapse" data-bs-parent="#newsAcco">
-                            <div class="accordion-body">${element.content}<a href="${element.url}" target="_blank">Read More here</a></div>
+                            <div class="accordion-body">${element.content} <a href="${element.url}" target="_blank">Read More here</a></div>
                             </div>
                         </div>`;
-             newsHtml += news;
+            newsHtml += news;
         });
         newsAcco.innerHTML = newsHtml;
     } else {

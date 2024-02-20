@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut39.js in this tut we can learn Promises Basics, Promises,then(), Promise.Catch()");
+console.log("Hey Welcome to tut39.js in this tut we can learn --Promises Basics, Promises,then(), Promise.Catch()--");
 
 //Promise
 //Reject
