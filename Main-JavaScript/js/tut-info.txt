@@ -2,7 +2,11 @@ Hello Welcome to the ES6 Advance JavaScript--
 
 Here is the information in our toutrials--
 
-----------------------------Start-------------------------
+
+
+---------------------***********-----------Start---------***********----------------------
+
+
 
 tut2 -  Console Logs, Errors, Warnings & More--
 
@@ -22,7 +26,7 @@ tut9 -  For, While & Do while Loops in JavaScript--
 
 tut10 - Fucntions in JavaScript--
 
-
+==========================================================================================
 
 
 tut11 - Manipulating Websites Using JS Window Object--
@@ -44,6 +48,10 @@ tut18 - More on JavaScript Event--
 tut19 - Smart Page Crawler--
 
 tut20 - Local and Session Storage--
+
+
+
+.......................................................................................
 
 
 
@@ -71,6 +79,10 @@ tut30 - Prototype inheritance in JavaScript--
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 
 tut31 - ES6 Classes and Inheritance in JavaScript--
 
@@ -92,6 +104,10 @@ tut39 - Promises Basics, Promises,then(), Promise.Catch()--
 
 tut40 - Creating a news Website--
 
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 
@@ -117,6 +133,13 @@ tut49 - Shorthand character classes (Regular Expressions) in JavaScript--
 tut50 - Form validation in JavaScript-- --project50.js--
 
 
+
+
+***********************************************************************************
+
+
+
+
 tut51 - Iterators in JavaScript 
 
 tut52 - Creating an Alarm App: Exercise 6
@@ -140,6 +163,10 @@ tut60 - JavaScript Destructuring
 
 
 
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+
 
 tut61 - JavaScript Wall Clock: Exercise 6 
 
@@ -152,3 +179,7 @@ tut64 - Drag & Drop Elements with JavaScript and HTML
 tut65 - Project 7: Creating a Calculator using HTML, CSS & JS
 
 tut66 - JavaScript Tutorial In Hindi
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```````````````````````````````````````````````````````````````````````````````````````````
