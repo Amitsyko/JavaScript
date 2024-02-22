@@ -1,4 +1,4 @@
-console.log("Hey welcome to tut25.js in this tut we can learn Editable div in JavaScript");
+console.log("Hey welcome to tut25.js in this tut we can learn --Creating an Editable Div Exercise 2: Solution--");
 
 let divElm = document.createElement("div");
 

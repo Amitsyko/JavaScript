@@ -1,4 +1,4 @@
-console.log("Welcome to tut6.");
+console.log("Welcome to tut6. we can learn in this tut --Strings: Properties, Methods & Template Literals in JavaScript --");
 const name = "Amit";
 const Greet = "Good Morning";
 

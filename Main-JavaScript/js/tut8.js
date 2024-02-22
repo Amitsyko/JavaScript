@@ -1,4 +1,4 @@
-console.log("Welcome to tut8.js ---- we are learning in this toutrial if else condition");
+console.log("Welcome to tut8.js ---- we are learning in this toutrial --If Else Conditionals & Switches in JavaScript--");
 
 /*-------------------------------*/
 /*

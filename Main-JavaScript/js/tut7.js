@@ -1,4 +1,4 @@
-console.log("Welcome to the tut7 and we will discuss about the arrays");
+console.log("Welcome to the tut7 and we will discuss about the --Arrays and Objects In JavaScript--");
 
 let num = [24,35,45,90];
 const fruits = ["Apple","Orange","Mango"];

@@ -1,3 +1,4 @@
+console.log('Hey Welcome to tut3.js in this tut we can learn --Data Types in JavaScript (Primitive & Reference Types)--');
 /*
     Data types :-
 

@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut16.js----In this tut16 we can learn Creating Removing and Replacing the element");
+console.log("Hey Welcome to tut16.js----In this tut16 we can learn --Creating, Removing & Replacing Elements--");
 
 let element = document.createElement("li");
 //This is also the method to add text in the elements

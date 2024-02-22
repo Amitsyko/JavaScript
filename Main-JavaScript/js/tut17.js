@@ -1,4 +1,4 @@
-console.log("Hey Welcome tut17.js----In this tut17.js we can learn Event Listner----");
+console.log("Hey Welcome tut17.js----In this tut17.js we can learn --Events & Event Object In JavaScript--");
 
 document.getElementById("heading").addEventListener("mouseover", function(e){
     console.log("you have click the haeading");

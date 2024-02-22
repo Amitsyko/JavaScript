@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut23.js--we can learn in this tut Maths objects--");
+console.log("Hey Welcome to tut23.js--we can learn in this tut --Math Object In JavaScript--");
 
 let x = 6;
 let y = 4;

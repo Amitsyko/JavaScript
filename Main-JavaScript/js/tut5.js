@@ -1,4 +1,4 @@
-console.log('Welcome to tut5.js');
+console.log('Welcome to tut5.js we can learn in this tut --JavaScript Type Conversion & Coercion--');
 
 // -----Type Conversion And Coercion----
 

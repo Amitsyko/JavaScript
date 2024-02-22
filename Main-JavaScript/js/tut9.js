@@ -1,4 +1,4 @@
-console.log('Welcome to the tut9.js ---- We learn in this toturail loops');
+console.log('Welcome to the tut9.js ---- We learn in this toturail --For, While & Do while Loops in JavaScript--');
 
 // for(let i=0;i<100;i++)
 // {

@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut19.js---- We can learn in this tut19.js--Smart Crawler--");
+console.log("Hey Welcome to tut19.js---- We can learn in this tut19.js--Smart Page Crawler--");
 
 let str = "python";
 let links = document.links;

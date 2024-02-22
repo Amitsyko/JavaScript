@@ -1,3 +1,5 @@
+console.log('Hey Welcome to tut3.js in this tut we can learn --Variables: let, const & var in JavaScript--');
+
 // Learn Variables in this tut3.js
 
 // ----var,let,const----

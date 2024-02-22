@@ -1,4 +1,4 @@
-console.log("Welcome to tut10.js ---- We are Learning the fucntions in JavaScript");
+console.log("Welcome to tut10.js ---- We are Learning the --Fucntions in JavaScript--");
 
 // const mygreet = function greet(name,mood="Thanks a lot..!"){
 //     let msg = `Hey Happy BirthDay ${name} How's the day ${mood}`;

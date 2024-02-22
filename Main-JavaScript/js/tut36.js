@@ -1,4 +1,4 @@
-console.log("Hey Welcome to the tut36.js in this tut we can create the --Library class in JavaScript-- this tut is 32 also");
+console.log("Hey Welcome to the tut36.js in this tut we can create the --Library Class Implementation Exercise 4: Solution in JavaScript-- this tut is 32 also");
 /*
 
 Create a class library and implement the following:--

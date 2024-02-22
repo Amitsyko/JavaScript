@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut12.js");
+console.log("Hey Welcome to tut12.js we can learn in this tut --Understanding DOM & Creating a Website Layout--");
 
 let a = document;
 a = document.all;

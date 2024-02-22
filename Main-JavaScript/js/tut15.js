@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut15.js-----We can learn in this tut ----Transversing Parent and childerns");
+console.log("Hey Welcome to tut15.js-----We can learn in this tut --Children, Parent & Traversing the DOM--");
 
 let cont = document.querySelector(".no");
 cont = document.querySelector(".container");

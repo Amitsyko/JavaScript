@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut28.js in this tut we can learn Object ProtoType in JavaScript");
+console.log("Hey Welcome to tut28.js in this tut we can learn --Object ProtoType in JavaScript--");
 
 let obj = {
     name : "Amit",

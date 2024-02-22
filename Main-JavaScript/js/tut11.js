@@ -1,4 +1,4 @@
-console.log("Welcome to tut11.js ----- In this toutrail we are learning DOM ----(Document Object Model)");
+console.log("Welcome to tut11.js ----- In this toutrail we are learning DOM --Manipulating Websites Using JS Window Object--");
 
 // let a = window.alert("hello Amit");
 // a = prompt("This will destory your computer.Enter your Name");

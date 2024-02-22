@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut18.js----In this tut18.js we can learn in this tut More on JavaScript Event");
+console.log("Hey Welcome to tut18.js----In this tut18.js we can learn in this tut --More on JavaScript Event--");
 
 // let btn = document.getElementById("btn");
 // // btn.addEventListener('click',fun1);

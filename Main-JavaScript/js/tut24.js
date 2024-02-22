@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut24.js In this tut we can learn --Date Objects--");
+console.log("Hey Welcome to tut24.js In this tut we can learn --Date Objects, Date and time--");
 
 let today = new Date();
 console.log(typeof today);

@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut27.js in this tut we can learn Object literals, Constructors, Object Orinted")
+console.log("Hey Welcome to tut27.js in this tut we can learn --Object literals, Constructors, Object Orinted--")
 
 
 //----Object Literals for creating Objects-----

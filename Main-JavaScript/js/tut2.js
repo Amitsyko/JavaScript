@@ -1,3 +1,5 @@
+console.log('Hey Welcome to tut2.js in this tut we can learn --Console Logs, Errors, Warnings & More--');
+
 console.time("Your Code took");
 console.log("Hello Console");
 console.log(10+10);
