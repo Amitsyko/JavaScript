@@ -1,0 +1,154 @@
+Hello Welcome to the ES6 Advance JavaScript--
+
+Here is the information in our toutrials--
+
+----------------------------Start-------------------------
+
+tut2 -  Console Logs, Errors, Warnings & More--
+
+tut3 -  Variables: let, const & var in JavaScript--
+
+tut4 -  Data Types in JavaScript (Primitive & Reference Types)--
+
+tut5 -  --JavaScript Type Conversion & Coercion--
+
+tut6 -  Strings: Properties, Methods & Template Literals in JavaScript --
+
+tut7 -  Arrays and Objects In JavaScript--
+
+tut8 -  If Else Conditionals & Switches in JavaScript--
+
+tut9 -  For, While & Do while Loops in JavaScript--
+
+tut10 - Fucntions in JavaScript--
+
+
+
+
+tut11 - Manipulating Websites Using JS Window Object--
+
+tut12 - Understanding DOM & Creating a Website Layout--
+
+tut13 - WebPage Crawler In JavaScript - Exercise 1--
+
+tut14 - HTML Element Selectors In JavaScript--
+
+tut15 - Children, Parent & Traversing the DOM--
+
+tut16 - Creating, Removing & Replacing Elements--
+
+tut17 - Events & Event Object In JavaScript--
+
+tut18 - More on JavaScript Event--
+
+tut19 - Smart Page Crawler--
+
+tut20 - Local and Session Storage--
+
+
+
+
+tut21 - Creating Editable Div Using JavaScript: Exercise 2--
+
+tut22 - Magic-Notes--
+
+tut23 - Math Object In JavaScript--
+
+tut24 - Date Objects, Date and time--
+
+tut25 - Creating an Editable Div Exercise 2: Solution--
+
+tut26 - Improving Magic Notes website--
+
+tut27 - Object literals, Constructors, Object Orinted--
+
+tut28 - Object ProtoType in JavaScript--
+
+tut29 - Notes app with title--(Solution)--
+
+tut30 - Prototype inheritance in JavaScript--
+
+
+
+
+
+tut31 - ES6 Classes and Inheritance in JavaScript--
+
+tut32 - Implement a library Class in JavaScript--
+
+tut33 - Project-Building---Book Library-- For students
+
+tut34 - Asynchronous Programming in JavaScript--
+
+tut35 - Ajax with API --ajax35.js--
+
+tut36 - Library Class Implementation Exercise 4: Solution in JavaScript--
+
+tut37 - CallBack Function in JavaScript--
+
+tut38 - Dictonary using API--
+
+tut39 - Promises Basics, Promises,then(), Promise.Catch()--
+
+tut40 - Creating a news Website--
+
+
+
+
+
+tut41 - Arrow Function-- in JavaScript
+
+tut42 - Fetch API-- in JavaScript
+
+tut43 - Async & Await Fucntions--
+
+tut44 - Error Handling & Try Catch
+
+tut45 - Using JavaScript Objects--
+
+tut46 - JavaScript Regular Expxression
+
+tut47 - Regular Expressions - MetaCharacters in JavaScript--
+
+tut48 - Regular Expressions - character sets in JavaScript--
+
+tut49 - Shorthand character classes (Regular Expressions) in JavaScript--
+
+tut50 - Form validation in JavaScript-- --project50.js--
+
+
+tut51 - Iterators in JavaScript 
+
+tut52 - Creating an Alarm App: Exercise 6
+
+tut53 - Generators in Javascript 
+
+tut54 - Alarm Clock In JavaScript
+
+tut55 - Project 5: Creating a CV Screener In JavaScript
+
+tut56 - For.. of Loop vs For.. in Loop (When to use which?)
+
+tut57 - JavaScript Maps
+
+tut58 - JavaScript Sets
+
+tut59 - JavaScript Symbols 
+
+tut60 - JavaScript Destructuring 
+
+
+
+
+
+tut61 - JavaScript Wall Clock: Exercise 6 
+
+tut62 - Creating a Clock: Exercise 6 Solution
+
+tut63 - Project 6: PostMan Clone - Creating a Get/Post Request Website 
+
+tut64 - Drag & Drop Elements with JavaScript and HTML
+
+tut65 - Project 7: Creating a Calculator using HTML, CSS & JS
+
+tut66 - JavaScript Tutorial In Hindi
