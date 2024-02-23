@@ -1,4 +1,4 @@
-console.log("Hey Welcome to tut55.js in tut we can learn --For.. of Loop vs For.. in Loop (When to use which?)--");
+console.log("Hey Welcome to tut56.js in tut we can learn --For.. of Loop vs For.. in Loop (When to use which?)--");
 
 let person = ['Amit','Rohan','Divya','Teena'];
 
