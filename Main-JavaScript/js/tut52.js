@@ -1,9 +1,16 @@
 console.log("Hey Welcome to tut52.js in this tut we can --create a alram clock--");
 
 // create a new `Date` object
-const now = new Date();
+// const now = new Date();
 
 // get the current date and time as a string
-const currentDateTime = now.toLocaleString();
+// const currentDateTime = now.toLocaleString();
 
-console.log(currentDateTime); // output: "7/20/2021, 2:28:15 PM" (will vary depending on your time zone)
+// console.log(currentDateTime); // output: "7/20/2021, 2:28:15 PM" (will vary depending on your time zone)
+
+
+
+
+
+
+

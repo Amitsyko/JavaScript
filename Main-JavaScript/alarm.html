@@ -11,28 +11,33 @@
 
 <body>
     <div class="container d-flex justify-content-center mt-5">
-        <div class="card p-3 border-warning  border-3 bg-secondary text-light" style="width: 25rem;">
+        <div class="card p-3 border-warning  border-3 bg-secondary text-light rounded-4" style="width: 25rem;">
             <img src="img/clock.png" class="card-img-top w-50 mx-auto mt-5" alt="...">
             <div id="time" class="card-body text-center">
-                <p class="card-text"><b>Time : 6:00:51</b></p>
-                <p class="card-text small">Set Alarm</p>
+                <h1 id="MyClockDisplay" class="clock" onload="showTime()"></h1>
+                <p class="card-text small mt-4"><b>Set Alarm</b></p>
             </div>
             <form class="row g-3 needs-validation" novalidate>
                 <div class="col-md-4">
-                    <label for="Hours" class="form-label small">Hours :</label>
-                    <input type="text" class="form-control border-dark" id="Hours" placeholder="00">
+                    <label  class="form-label small">Date :</label>
+                    <input type="Date" class="form-control border-dark" id="alarm">
                 </div>
                 <div class="col-md-4">
-                    <label for="Seconds" class="form-label small">Seconds :</label>
-                    <input type="text" class="form-control border-dark" id="Seconds" placeholder="00">
+                    <label  class="form-label small">Time :</label>
+                    <input type="time" class="form-control border-dark" id="alarm">
                 </div>
                 <div class="col-md-4">
-                    <label for="Minutes" class="form-label small">Minutes :</label>
-                    <div class="input-group">
-                        <input type="text" class="form-control border-dark" id="Minutes" placeholder="00">
+                    <label class="form-label">State :</label>
+                    <select class="form-select" id="alarm">
+                        <option>PM</option>
+                        <option>AM</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
                     </div>
                 </div>
-                <button class="btn btn-warning">Set</button>
+                <!-- <input type="text" class="form-control border-dark" id="alarm" name="alarm"> -->
+                <button id="alarmSubmit" class="btn btn-warning">Set</button>
             </form>
         </div>
     </div>
