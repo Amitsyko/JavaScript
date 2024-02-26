@@ -1,0 +1,35 @@
+body {
+    background: rgb(84, 46, 118);
+}
+
+.whiteBox {
+    border: 3px solid black;
+    height: 150px;
+    width: 170px;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 2rem;
+    background-color: white;
+}
+
+.imgBox {
+    background-image: url('iron.png');
+    height: 100%; 
+    width: 100%; 
+    max-width: 150px;
+    background-size: cover;
+    position: relative;
+    left: 8px;
+}
+
+.hold{
+    border: 2px solid red;
+}
+
+.dashed{
+    background-color: rgb(214, 206, 206);
+    border-style: dotted;
+}
+.hide{
+    display: none;
+}
