@@ -19,7 +19,6 @@ console.log("Last line of the js file");
 */
 
 
-
 async function amit(){
     // console.log("i am started");
   const response = await fetch('https://api.github.com/users');
@@ -30,3 +29,4 @@ async function amit(){
 let a = amit();
 console.log(amit());
 a.then(data => console.log(data));
+

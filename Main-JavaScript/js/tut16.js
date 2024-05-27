@@ -39,7 +39,7 @@ element.replaceWith(elem2);
 // ----Change with class (child)----
 let myul = document.getElementById("myul");
 myul.replaceChild(element,document.getElementById("fui"));
-
+    
 // ----Remove elements----
 
 myul.removeChild(document.getElementById("lui"));

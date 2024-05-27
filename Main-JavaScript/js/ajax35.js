@@ -1,6 +1,6 @@
 console.log("Hey Welcome to the ajax35.js in this tut we can leran --Ajax In one video--");
 
-/* 
+
 
 //--Using GET Request--
 
@@ -14,7 +14,7 @@ function ButtonClickHandler(){
     const xhr = new XMLHttpRequest();
 
     //Open the Object --
-    xhr.open("GET",'https://jsonplaceholder.typicode.com/todos/1', true);
+    xhr.open("GET",'amit.txt', true);
 
     //What to do on progress (optional)
     xhr.onprogress = function(){
@@ -27,7 +27,9 @@ function ButtonClickHandler(){
 
     xhr.onload = function(){
         if(this.status === 200){
-            console.log(this.responseText)
+            let list = document.getElementById('list');
+
+            list.innerHTML = this.responseText;
         }else{
             console.log('Some error occured');
         }
@@ -39,7 +41,7 @@ function ButtonClickHandler(){
     console.log("hello")
 }
 
-*/
+
 
 /*
 // --Using POST Request--
@@ -81,7 +83,7 @@ function ButtonClickHandler(){
     console.log("hello")
 }
 */
-
+/*
 let popBtn = document.getElementById('popBtn');
 
 popBtn.addEventListener('click', popBtnHandler);
@@ -120,4 +122,6 @@ function popBtnHandler(){
      xhr.send();
  
      console.log("hello")
-}
+}*/
+
+

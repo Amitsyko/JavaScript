@@ -1,7 +1,9 @@
 console.log("Hey Welcome to tut42.js in this tut we can learn --Fetch API-- in JavaScript");
 
 let myBtn = document.querySelector("#myBtn");
-
+myBtn.addEventListener("click",()=>{
+    getData();
+})
 
 let content = document.querySelector("#content");
 
@@ -39,9 +41,9 @@ function getData(){
 }
 
 
-console.log("Before running getData");
-getData();
-console.log("After running getData");
+// console.log("Before running getData");
+// getData();
+// console.log("After running getData");
 
 
 

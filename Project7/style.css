@@ -2,6 +2,17 @@ body {
     background: rgb(84, 46, 118);
 }
 
+.imgBox {
+    background-image: url('iron.png');
+    height: 100%; 
+    width: 100%; 
+    max-width: 500px;
+    background-size: cover;
+    position: relative;
+    left: 8px;
+    cursor: pointer;
+}
+
 .whiteBox {
     border: 3px solid black;
     height: 150px;
@@ -10,16 +21,6 @@ body {
     padding: 5px;
     margin-left: 2rem;
     background-color: white;
-}
-
-.imgBox {
-    background-image: url('iron.png');
-    height: 100%; 
-    width: 100%; 
-    max-width: 150px;
-    background-size: cover;
-    position: relative;
-    left: 8px;
 }
 
 .hold{
