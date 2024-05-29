@@ -1,70 +1,74 @@
-console.log("Hey Welcome to tut54.js in this tut we can create --Alarm Clock-- (tut52.js)");
+    console.log("Hey Welcome to tut54.js in this tut we can create --Alarm Clock-- (tut52.js)");
 
 
 
 
-/*----------------------Resolving this code beacuse alram is not set--------------------*/
+    /*----------------------Resolving this code beacuse alram is not set--------------------*/
 
 
 
 
-function showTime(){
-    var date = new Date();
-    var h = date.getHours();
-    var m = date.getMinutes();
-    var s = date.getSeconds();
-    var session = "AM";
+    let display = document.getElementById("MyClockDisplay");
+    const audio = new Audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3");
+    audio.loop = true;
+    let alarmTime = null;
+    let alarmTimeout = null;
 
-    if(h == 0){
-        h = 12;
-    }
-    if(h > 12){
-        h = h - 12;
-        session = "PM";
-    }
-
-    h = (h < 10)? "0" + h : h;
-    m = (h < 10)? "0" + m : m;
-    s = (h < 10)? "0" + s : s;
-
-    var time = h + ":" + m + ":" + s + " " + session;
-    // document.getElementById("MyClockDisplay").innerText = time;
-    document.getElementById("MyClockDisplay").textContent = time;
+    //step 2 = display clock--
+    function updateTime(){
+        const date = new Date();
+        const hours = formatTime(date.getHours());
+        const minutes = formatTime(date.getMinutes());
+        const seconds = formatTime(date.getSeconds());
     
-    setTimeout(showTime, 1000);
-};
-
-showTime();
-
-var audio = new Audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3");
-
-function ringbell(){
-    audio.play();
-}
-
-
-let alarmSubmit = document.getElementById("alarmSubmit");
-alarmSubmit.addEventListener("click",setAlarm);
-
-function setAlarm(e){
-    e.preventDefault();
-
-    console.log("you have set your alarm");
-
-    const alarm = document.getElementById("alarm");
-    alarmDate = new Date(alarm.value);  
-    console.log(`Setting alarm for ${alarmDate}`);
-
-
-    now = new Date();
-
-    let timeToAlarm = alarmDate - now;
-    console.log(timeToAlarm);
-
-
-    if(timeToAlarm>=0){
-        setTimeout(() => {
-            ringbell();
-        }, timeToAlarm);
+        display.innerHTML = hours + " : " + minutes + " : " + seconds;
     }
-}
+        function formatTime(time){
+            if(time < 10) return "0" + time;
+            return time;
+        }
+    
+    setInterval(updateTime, 1000);
+
+
+    //Step 3 : Set the Alarm
+    function setAlarmTime(value){
+        alarmTime = value;
+    }
+
+    function setAlarm(){
+        if(alarmTime) {
+            const current = new Date();
+            const timeToAlarm = new Date(alarmTime);
+
+            if(timeToAlarm > current){
+                const timeout = timeToAlarm.getTime() - current.getTime();
+                alarmTimeout = setTimeout(function(){
+                    audio.play();
+                    shakeImage();
+                }, timeout);
+                alert("Alarm Set")
+            }
+        }
+    }
+
+    //Step 4 : Set the Alarm
+    function clearAlarm(){
+        audio.pause();
+        if(alarmTimeout){
+            clearTimeout(alarmTimeout);
+            alert("Alarm Clear..!")
+        }
+        const img = document.getElementById("alarmImage");
+        if (img) {
+            img.classList.remove("shake");
+        }
+    }
+
+
+    function shakeImage(){
+        const img = document.getElementById("alarmImage");
+        if (img) {
+            img.classList.add("shake");
+        }
+    }

@@ -22,8 +22,8 @@ function updateClock(){
 
 
     // convert railway clock to AM/PM Clock--
-    currentHours = (currentHours) ? currentHours -12 : currentHours;
-    currentHours = (currentHours === 0) ? 12 : currentHours;
+    currentHours = (currentHours>12) ? currentHours -12 : currentHours;
+    currentHours = (currentHours == 0) ? 12 : currentHours;
 
 
     // Prepare the time string from hours, minutes and seconds--

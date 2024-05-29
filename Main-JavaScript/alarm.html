@@ -9,42 +9,54 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
+<style>
+    button{
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        font-weight: 600;
+    }
+    .control{
+        margin-top: 20px;
+    }
+    @keyframes shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-1px, -2px) rotate(-1deg); }
+            20% { transform: translate(-3px, 0px) rotate(1deg); }
+            30% { transform: translate(3px, 2px) rotate(0deg); }
+            40% { transform: translate(1px, -1px) rotate(1deg); }
+            50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            60% { transform: translate(-3px, 1px) rotate(0deg); }
+            70% { transform: translate(3px, 1px) rotate(-1deg); }
+            80% { transform: translate(-1px, -1px) rotate(1deg); }
+            90% { transform: translate(1px, 2px) rotate(0deg); }
+            100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+        .shake {
+            animation: shake 0.5s infinite;
+        }
+</style>
+
 <body>
     <div class="container d-flex justify-content-center mt-5">
         <div class="card p-3 border-warning  border-3 bg-secondary text-light rounded-4" style="width: 25rem;">
-            <img src="img/clock.png" class="card-img-top w-50 mx-auto mt-5" alt="...">
+            <img  id="alarmImage"  src="img/clock.png" class="card-img-top w-50 mx-auto mt-5" alt="...">
             <div id="time" class="card-body text-center">
-                <h1 id="MyClockDisplay" class="clock" onload="showTime()"></h1>
+                <h1 id="MyClockDisplay" class="clock"></h1>
                 <p class="card-text small mt-4"><b>Set Alarm</b></p>
             </div>
-            <form class="row g-3 needs-validation" novalidate>
-                <div class="col-md-4">
-                    <label  class="form-label small">Date :</label>
-                    <input type="Date" class="form-control border-dark" id="alarm">
-                </div>
-                <div class="col-md-4">
-                    <label  class="form-label small">Time :</label>
-                    <input type="time" class="form-control border-dark" id="alarm">
-                </div>
-                <div class="col-md-4">
-                    <label class="form-label">State :</label>
-                    <select class="form-select" id="alarm">
-                        <option>PM</option>
-                        <option>AM</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Please select a valid state.
-                    </div>
-                </div>
-                <!-- <input type="text" class="form-control border-dark" id="alarm" name="alarm"> -->
-                <button id="alarmSubmit" class="btn btn-warning">Set</button>
-            </form>
+            <input type="datetime-local" name="alarmType" onchange="setAlarmTime(this.value)">
+            <div class="control" style="text-align: center;">
+                <button style="background-color: green;" onclick="setAlarm()">Set Alarm</button>
+                <button style="background-color: red;" onclick="clearAlarm()">Clear Alarm</button>
+            </div>
+                
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="js/tut52.js"></script>
+    <script src="js/tut54.js"></script>
 </body>
 
 </html>
